@@ -1,6 +1,6 @@
-# demo-vue2.0
+# vue0512
 
-> a vue.js demo project by jyl
+> A Vue.js project
 
 ## Build Setup
 

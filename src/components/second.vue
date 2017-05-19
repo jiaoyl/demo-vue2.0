@@ -1,22 +1,17 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <router-link to="/datassss">
-    	adfadsfsd
-    </router-link>
-    <router-link to="/aa">
-    	adfadsfsd
-    </router-link>
+    <h1>{{ msg }}</h1>   
+    <!--<li><router-link to="/first">点我跳转到第一页</router-link></li>
+     <li><router-link to="/second">点我跳转到第二页</router-link></li>-->
   </div>
 </template>
 
 <script>
 export default {
-  name: 'hello',
+  name: 'secondPage',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: '第二页'
     }
   }
 }
