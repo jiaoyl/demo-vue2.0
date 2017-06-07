@@ -1,8 +1,6 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>   
-    <!--<li><router-link to="/first">点我跳转到第一页</router-link></li>
-     <li><router-link to="/second">点我跳转到第二页</router-link></li>-->
+    <h1>{{ title }}</h1>      
   </div>
 </template>
 
@@ -11,7 +9,7 @@ export default {
   name: 'firstPage',
   data () {
     return {
-      msg: '第一页'
+      title: '标题-todo list'
     }
   }
 }
